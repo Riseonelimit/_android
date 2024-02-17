@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#F0F8A7"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        />
+
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_gravity="center"
+        android:layout_width="100pt"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="10sp"
+        android:hint="FirstName"
+        />
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_gravity="center"
+        android:layout_width="100pt"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="20pt"
+        android:layout_marginRight="20pt"
+        android:hint="LastName"
+        />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_gravity="center"
+        android:layout_width="100pt"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="10sp"
+        android:inputType="number"
+        android:hint="Age"
+        />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_gravity="center"
+        android:layout_width="100pt"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="20pt"
+        android:layout_marginRight="20pt"
+        android:inputType="phone"
+        android:hint="phone"
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="#FBE203"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        />
+
+
+</LinearLayout>
