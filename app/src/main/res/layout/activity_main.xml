@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#00BCD4"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--Q1-->
+   <!-- <EditText
+        android:id="@+id/moNo"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call" />-->
+
+    <!--Q2-->
+
+   <!-- <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.assignment_3.static1"
+        android:layout_weight="1"
+        />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.assignment_3.static2"
+        android:layout_weight="1"
+        />-->
+
+
+
+    <!--Q3-->
+
+   <!--  <EditText
+         android:id="@+id/email"
+         android:layout_width="300sp"
+         android:layout_height="wrap_content"
+         android:hint="Email"
+         android:inputType="text" />
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:hint="Subject"
+        android:inputType="textEmailSubject" />
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:hint="Message"
+        android:inputType="text" />
+
+     <Button
+         android:id="@+id/btn"
+         android:backgroundTint="#2196F3"
+         android:layout_width="300sp"
+         android:layout_height="wrap_content"
+         android:text="Send Email" />
+-->
+
+    <!-- ===== Q4 ======-->
+
+<!--    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+    <Button
+        android:id="@+id/frag1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frag1"
+        />
+    <Button
+        android:id="@+id/frag2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frag2"
+        />
+    <Button
+        android:id="@+id/frag3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frag3"
+        />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameContainer"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        />
+    &lt;!&ndash; Q5 &ndash;&gt;
+    <ImageView
+        android:id="@+id/img"
+        android:src="@drawable/bulb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />-->
+
+    <!-- Q6 uncomment for intent-->
+
+    <Button
+        android:id="@+id/q6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Go to Q6"
+        />
+
+</LinearLayout>
